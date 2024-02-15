@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Resume - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Venkata Sai Chandan</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/image.jpg" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#xkcd-comic">XKCD Comic</a></li>
+            </ul>
+        </div>
+        <canvas id="analog-clock" width="120" height="120" style="background-color: #af4c1a; padding: 15px;"></canvas>
+    </nav>
+
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Venkata Sai Chandan
+                    <span class="text-primary">Bobbili</span>
+                </h1>
+                <div class="subheading mb-5">
+                    University of Cincinnati · Masters in Information Technology
+                    <div id="email" onclick="showhideEmail()">Show my email</div>
+                    <script src="email.js" defer></script>
+                </div>
+                <p class="lead mb-5">Dedicated and motivated Information Technology student with a solid foundation in computer science and a passion for staying current with emerging technologies. Currently pursuing a Masters Degree in University of Cincinnati, I bring a blend of academic knowledge and practical skills gained through coursework, projects, and internships.</p>
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/chandan-bvs-8b30471b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/chandan-uc" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div id="digit-clock"></div>
+                <div id="welcome-message"></div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Experience</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Programmer Analyst</h3>
+                        <div class="subheading mb-3">Cognizant</div>
+                        <p>Conducting vulnerability assessments on Google Play Store apps, categorizing them as true positives or false positives based on identified PHA categories such as spyware, toll fraud, backdoors, etc.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2022 - July 2023</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Intern</h3>
+                        <div class="subheading mb-3">Cognizant</div>
+                        <p>Engaged in hands-on Cyber Security courses, actively participating in Penetration Testing exercises, mastering the Java Programming Language, and honing skills in Android Development.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">March 2022 - July 2022</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">University of Cincinnati</h3>
+                        <div class="subheading mb-3">Masters Degree</div>
+                        <div>Information Technology</div>
+                        <p>Current GPA: 4.00</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2023 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Mahatma Gandhi Institute of Technology</h3>
+                        <div class="subheading mb-3">Computer Science Engineering</div>
+                        <p>GPA: 3.56</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2018 - August 2022</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+                <div class="subheading mb-3">Programming Languages & Tools</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                </ul>
+                <div class="subheading mb-3">Operating Systems</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-windows"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-apple"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Interests-->
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Interests</h2>
+                <p>I absolutely love traveling and immersing myself in different cultures, trying out adventurous activities and exploring historical sites. I'm also a big fan of jokes and humor—whether it's enjoying clever wordplay, sharing jokes with friends, or the latest internet memes.</p>
+                <p class="mb-0">I love getting creative in the kitchen, trying out new recipes and experimenting with different flavors. It's not just about the food; it's the joy I find in the process. And when I need some downtime, you'll find me on the couch, indulging in a mix of classic movies, binge-worthy TV series, and intriguing documentaries on Netflix. These two passions, cooking and Netflix, bring a delightful balance to my everyday life.</p>
+                <hr>
+                <div id="response"></div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Certifications and extracurricular activities</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Certified as an Intern in Machine Learning (Indian Servers)
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        NPTEL Certifications on Internet of Things, Social Networks, Research Methods, Data Science, Blockchain and its Applications
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-donate"></i></span>
+                        Volunteered as a care worker at Street Cause Old Age from July 2019–November 2021.
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-bullhorn"></i></span>
+                        Headed as Event Coordinator at Computer Society of India on May 2020
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="resume-section" id="xkcd-comic">
+            <div class="resume-section-content">
+                <h2 class="mb-5">XKCD Comic</h2>
+                <div id="xkcd-container">
+                    <h3 id="xkcd-title"></h3>
+                    <img id="xkcd-img" alt="XKCD Comic" />
+                    <p id="xkcd-alt"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Analog Clock JS -->
+    <script type="text/javascript">
+        function displayTime() {
+            document.getElementById('digit-clock').innerHTML = "Current time: " + new Date();
+        }
+        setInterval(displayTime, 500);
+
+        var canvas = document.getElementById("analog-clock");
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height/2;
+        ctx.translate(radius, radius);
+        radius = radius * 0.90;
+        setInterval(drawClock, 1000);
+
+        function drawClock() {
+            drawFace(ctx, radius);
+            drawNumbers(ctx, radius);
+            drawTime(ctx, radius);
+        }
+
+        function drawFace(ctx, radius) {
+            ctx.beginPath();
+            ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+            ctx.fillStyle = 'white';
+            ctx.fill();
+            ctx.lineWidth = 2;
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+            ctx.fillStyle = '#333';
+            ctx.fill();
+        }
+
+        function drawNumbers(ctx, radius) {
+            var ang;
+            var num;
+            ctx.font = radius * 0.15 + "px Arial";
+            ctx.textBaseline = "middle";
+            ctx.textAlign = "center";
+            for (num = 1; num < 13; num++) {
+                ang = num * Math.PI / 6;
+                ctx.rotate(ang);
+                ctx.translate(0, -radius * 0.85);
+                ctx.rotate(-ang);
+                ctx.fillText(num.toString(), 0, 0);
+                ctx.rotate(ang);
+                ctx.translate(0, radius * 0.85);
+                ctx.rotate(-ang);
+            }
+        }
+
+        function drawTime(ctx, radius) {
+            var now = new Date();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var second = now.getSeconds();
+
+            // Draw Hour Hand
+            hour = hour % 12;
+            hour = (hour * Math.PI / 6) + (minute * Math.PI / (6 * 60)) + (second * Math.PI / (360 * 60));
+            drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+
+            // Draw Minute Hand
+            minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+            drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+
+            // Draw Second Hand
+            second = (second * Math.PI / 30);
+            drawHand(ctx, second, radius * 0.9, radius * 0.02);
+        }
+
+        function drawHand(ctx, pos, length, width) {
+            ctx.beginPath();
+            ctx.lineWidth = width;
+            ctx.lineCap = "round";
+            ctx.moveTo(0, 0);
+            ctx.rotate(pos);
+            ctx.lineTo(0, -length);
+            ctx.stroke();
+            ctx.rotate(-pos);
+        }
+    </script>
+    <script type="text/javascript">
+        // Function to fetch and display a joke
+        function fetchJoke() {
+            $.get("https://v2.jokeapi.dev/joke/Programming?type=single", function (result) {
+                console.log("From jokeAPI:" + JSON.stringify(result));
+                if (result && result.joke) {
+                    $("#response").text("Programming joke of the day: " + result.joke);
+                } else {
+                    $("#response").text("Couldn't retrieve a joke at this time.");
+                }
+            });
+        }
+    
+        // Fetch initial joke
+        fetchJoke();
+    
+        // Set interval to fetch a new joke every 1 minute
+        setInterval(fetchJoke, 60000); // 60000 milliseconds = 1 minute
+    </script>
+    
+    <script>
+        // Function to fetch XKCD comic data
+        function fetchXKCDComic() {
+            // Use the cors-anywhere proxy to bypass CORS issues during development
+            const proxyUrl = "https://api.allorigins.win/raw?url=";
+            const apiUrl = "https://xkcd.com/info.0.json";
+
+            // Fetch data from XKCD API through the proxy
+            fetch(proxyUrl + apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Update the HTML elements with XKCD comic data
+                    document.getElementById("xkcd-title").textContent = data.title;
+                    document.getElementById("xkcd-img").src = data.img;
+                    document.getElementById("xkcd-alt").textContent = data.alt;
+                })
+                .catch(error => {
+                    console.error("Error fetching XKCD comic:", error);
+                });
+        }
+
+        // Fetch XKCD comic on page load
+        fetchXKCDComic();
+    </script>
+    <script type="text/javascript">
+        // Function to set a cookie
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        // Function to get a cookie value
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        // Function to display welcome message based on cookie
+        function displayWelcomeMessage() {
+            var lastVisit = getCookie("lastVisit");
+
+            if (!lastVisit) {
+                // First time visit
+                setCookie("lastVisit", new Date(), 365); // Store the current date for future visits
+                document.getElementById("welcome-message").textContent = "Welcome to my homepage!";
+            } else {
+                // Returning visit
+                document.getElementById("welcome-message").textContent = "Welcome back! Your last visit was " + lastVisit;
+            }
+        }
+
+        // Display welcome message on page load
+        displayWelcomeMessage();
+    </script>
+</body>
+    
+    
+</body>
+
+</html>
