@@ -277,10 +277,10 @@
     <script type="text/javascript">
         // Function to fetch and display a joke
         function fetchJoke() {
-            $.get("https://v2.jokeapi.dev/joke/Programming?type=single", function (result) {
+            $.get("https://v2.jokeapi.dev/joke/Any?type=single", function (result) {
                 console.log("From jokeAPI:" + JSON.stringify(result));
                 if (result && result.joke) {
-                    $("#response").text("Programming joke of the day: " + result.joke);
+                    $("#response").text("Joke of the day: " + result.joke);
                 } else {
                     $("#response").text("Couldn't retrieve a joke at this time.");
                 }
